@@ -1,0 +1,25 @@
+{
+  "name": "node-p2p",
+  "version": "0.0.1",
+  "description": "test node p2p network",
+  "main": "src/index.ts",
+  "repository": "https://github.com/OsirisFrik/node-p2p",
+  "author": "OsirisFrik",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "dat-swarm-defaults": "^1.0.2",
+    "discovery-swarm": "^6.1.0",
+    "get-port": "^5.1.1",
+    "portfinder": "^1.0.28"
+  },
+  "devDependencies": {
+    "@types/nodemon": "^1.19.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
